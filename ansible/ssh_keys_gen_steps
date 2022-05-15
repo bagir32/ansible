@@ -1,0 +1,4 @@
+create ssh keys:
+- ssh-keygen -t ed25519 -C "ansible key"
+- ssh-copy-id -i ~/.ssh/id_ed25519.pub 172.16.250.133
+- alias ssha='eval $(ssh-agent) && ssh-add'
