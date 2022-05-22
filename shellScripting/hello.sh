@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 echo "Hello, World!"
 
 ((sum=25+35))
